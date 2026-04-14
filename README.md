@@ -341,36 +341,3 @@ Do **not modify**:
 Your code must compile with:
 
     make
-
-------------------------------------------------------------------------
-
-# Grading Breakdown
-
-  Component             Points
-  --------------------- --------
-  Build                 10
-  Visible correctness   20
-  Hidden tests          30
-  CSR correctness       15
-  CLI behavior          5
-  Memory safety         10
-  Performance           10
-  Total                 100
-
-------------------------------------------------------------------------
-
-# Final Advice
-
-Most bugs come from:
-
--   incorrect CSR indexing
--   forgetting to initialize distances
--   queue mistakes
-
-Test your code using:
-
-    make
-    ./graph_bench ...
-    valgrind ...
-
-Good luck exploring **cache-friendly data structures**!
