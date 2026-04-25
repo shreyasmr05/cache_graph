@@ -1,0 +1,6 @@
+-Iinclude
+-std=gnu11
+-Wall
+-Wextra
+-pedantic
+-O2
